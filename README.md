@@ -1,85 +1,113 @@
-# i make things.
+<div align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=4000&pause=2000&color=A855F7&vCenter=true&center=true&width=500&lines=I+build+things.;Usually+over-engineered.;Sometimes+from+scratch.;Mostly+just+for+fun." alt="Typing Banner" />
+  
+  <p><b>I build whacky full-stack apps, WebGL experiences, and custom databases.</b></p>
+  <p>I focus on pushing the browser to its absolute limits (or building things from scratch in C/Go when I feel like punishing myself). I am not currently looking for work, but feel free to explore my sandbox below.</p>
+</div>
 
-mostly because i'm bored, occasionally just to see if i can. i am absolutely not looking for work, so please don't reach out with job opportunities. 
+<br>
 
-i build whacky full-stack apps (usually unnecessarily over-engineered browser games using Next.js and TypeScript) and sometimes i write things from scratch in Go or C when i feel like punishing myself. Most of these are private because i don't want to manage issues or pull requests. 
+## ✦ Featured Experiments
 
----
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📚 Reading Room</h3>
+      <p>A violently over-engineered blog. Built as a satire of generic template clones. There is no CMS and no MDX—every post is a handwritten React component with custom per-post palettes, a debug HUD, and a 0.3° HTML layout tilt saved in <code>localStorage</code>.</p>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+      <br><br>
+      <a href="https://blog-nine-phi-25.vercel.app/"><b>[ Live Site ]</b></a> • 
+      <a href="https://blog-nine-phi-25.vercel.app/">Read: <i>I keep writing tRPC for no reason</i></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛸 Cyber-City</h3>
+      <p>An infinite cyberpunk drone-flying game. Pilot through a procedurally generated neon metropolis. Features a brutal "Deathwish Mode" where speed is permanently locked at maximum and buildings collapse directly into your flight path.</p>
+      <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" />
+      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+      <br><br>
+      <a href="https://cyber-city-blush.vercel.app/"><b>[ Play Game ]</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🏰 Crypt</h3>
+      <p>A turn-based dungeon crawler living entirely on a server. No game engine, no JS framework. The frontend is literally a <code>&lt;pre&gt;</code> tag in a fake terminal. Every keypress is a fetch(). If the server reboots, you die permanently. Roguelike-correct.</p>
+      <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+      <br><br>
+      <a href="https://crypt-f7ji.onrender.com/"><b>[ Enter Dungeon ]</b></a> • 
+      <a href="https://github.com/Nikhil-Singh2745/crypt"><b>[ Source & Gifs ]</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🗄️ Rawth</h3>
+      <p>A key-value database built entirely from scratch. Features a custom B+Tree, custom binary file format, query language, and its own WebSocket server. Zero external dependencies. No Postgres, no SQLite. Not the wise choice, but that was the point.</p>
+      <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+      <br><br>
+      <a href="https://rawth-production.up.railway.app/"><b>[ Live Demo ]</b></a> • 
+      <a href="https://github.com/Nikhil-Singh2745/rawth"><b>[ Source Code ]</b></a>
+    </td>
+  </tr>
+</table>
 
-## the things (they work, click the links)
+## ✦ The WebGL & Canvas Sandbox
 
-### 📚 reading room 
-* **what it is:** a blog. for text. i built this as a satire of the generic, template-cloned blog apps people build when they first learn web dev. except mine is violently over-engineered. there is no cms, no mdx, and no content pipeline. every single post is a hand-written react component. it has custom per-post color palettes, hard box shadows, a debug hud, and a 0.3° tilt on the html tag persisted in localstorage. why? because i could.
-* **built with:** Next.js 16 (Turbopack), React 19, Tailwind CSS v4, Motion v12, TypeScript
-* **link:** https://blog-nine-phi-25.vercel.app/
-* **the only two articles worth reading on the internet right now:**
-  * *i keep writing trpc for no reason:* where i figure out a reason anyway by calling trpc procedures from inside server actions via `createCaller`. nobody does this. i do.
-  * *i don't backprop through softmax:* wrote an mlp in numpy. the textbook backward pass for the last layer is slow and numerically terrible. fixed it with two lines of basic algebra cancellation. 
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌐 Threshold</h3>
+      <p>A single-page WebGL experience built to see what would break first: the GPU, the browser, or me. Zero abstractions beyond Three.js scene graphs. Shaders and audio math are handwritten. The application logic is a microscopic 9kb.</p>
+      <a href="https://threshold-navy.vercel.app/"><b>[ Launch Experience ]</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🚀 Deadframe</h3>
+      <p>A fast-paced 2D space shooter with a roguelite perk system. Bypassed standard game engines entirely to build a custom rendering loop from scratch using the raw HTML5 Canvas API.</p>
+      <a href="https://deadframe.vercel.app/"><b>[ Play Game ]</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>💻 Glass-OS</h3>
+      <p>A cyberpunk web desktop simulator. Features draggable windows, a local-storage note editor, and a functional terminal running classic tropes like <code>cowsay</code> and <code>matrix</code>.</p>
+      <a href="https://glass-os.vercel.app/"><b>[ Boot OS ]</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📦 Ecopack Select v2</h3>
+      <p>A 3D packaging configurator with a Blender-inspired UI. Started as a basic college project, but I accidentally put way too much effort into it because I didn't know when to stop.</p>
+      <a href="https://ecopack-select-v2.vercel.app/"><b>[ View Configurator ]</b></a>
+    </td>
+  </tr>
+</table>
 
-### 🗄️ rawth (open source)
-* **what it is:** a key-value database built entirely from scratch. it features a custom b+tree, a custom binary file format, a custom query language, and its own websocket server/web ui. zero external dependencies. no postgres, no sqlite, not even gorilla/websocket. it wasn't the wise choice, but that was entirely the point. 
-* **built with:** Go
-* **link:** https://rawth-production.up.railway.app/ *(stays up as long as my railway credits don't run out)*
-* **Github link :** https://github.com/Nikhil-Singh2745/rawth
+## ✦ Honorable Mentions
 
-### 🏰 crypt (open source)
-* **what it is:** a turn-based dungeon crawler that lives entirely on a server. no game engine, no js framework, no runtime. just one binary and ~1100 lines of pure code. the entire frontend is literally just a `<pre>` tag in a fake terminal window. every keypress triggers a `fetch()`, and every frame is a server-sent event. sessions are stored as a cookie pointing to a struct in a fixed-size array. if the server reboots, your character dies permanently. that's roguelike-correct. 
-* **built with:** C & HTML (just a bit)
-* **link:** https://crypt-f7ji.onrender.com/ 
-* **note:** it is hosted on render's free tier. it *will* go down after 15 minutes of inactivity. you are going to have to stare at a blank screen for 15-20 seconds while the container wakes up. do not complain to me, it is not my fault. read the repository readme if you want to see the animations/gifs immediately.
-* **Github link :** https://github.com/Nikhil-Singh2745/crypt *(Read the README, its there for a reason)*
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🦖 Dino Supreme</h3>
+      <p>A satire of the Chrome dinosaur game. Over-engineered to an unnecessary degree just to see if I could keep canvas rendering stable while piling on useless features.</p>
+      <a href="https://dino-supreme.vercel.app/"><b>[ Play ]</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧮 Calculator</h3>
+      <p>A totally normal web calculator. Definitely does math, and definitely doesn't do anything weird when you click the numbers. Watch it break standard layout logic.</p>
+      <a href="https://calculator-khaki-eta-90.vercel.app/"><b>[ Calculate ]</b></a>
+    </td>
+  </tr>
+</table>
 
-### 🌐 threshold 
-* **what it is:** a single-page webgl experience i built for a hackathon to see what would break first—the gpu, the browser, or me. the answer was me, twice. there is no game engine here. i used three.js for basic scene graph management, but the postprocessing pipeline, custom shaders, easing math, and audio scheduling are all completely handwritten. the entire application code is a stupidly small 9kb.
-* **built with:** Three.js, WebGL, Vanilla JS
-* **link:** [https://threshold-navy.vercel.app/](https://threshold-navy.vercel.app/)
+<br>
 
-### 🦖 dino supreme
-* **what it is:** a satire of the chrome offline dinosaur game. the original game is supposed to be a low-effort distraction for when your internet dies. i decided to over-engineer it to an unnecessary degree just to see if i could keep the canvas performance stable while piling on useless features. 
-* **built with:** Next.js, React, TypeScript, HTML5 Canvas API
-* **link:** [https://dino-supreme.vercel.app/](https://dino-supreme.vercel.app/)
+<details>
+<summary><b>▸ Open Source Archives (Older Projects)</b></summary>
+<br>
 
-### 📦 ecopack select v2
-* **what it is:** a 3D sustainable packaging configurator. this started as a basic college project, but i accidentally put way too much effort into it because i didn't know when to stop. it features a full blender-inspired ui and real-time eco-material visualization. one of my better three.js projects, even if it was for a grade.
-* **built with:** React, Three.js, Tailwind CSS
-* **link:** [https://ecopack-select-v2.vercel.app/](https://ecopack-select-v2.vercel.app/)
+*I made these back when I was still figuring things out. They don't have live deployment links, but the source code is public. Read the repos to run them locally.*
 
-### 🧮 calculator
-* **what it is:** a totally normal web calculator. it definitely does math, and definitely doesn't do anything weird when you start clicking the numbers. do not expect a standard grid; just click around and watch it break standard layout logic. 
-* **built with:** Next.js, TypeScript, Tailwind CSS
-* **link:** [https://calculator-khaki-eta-90.vercel.app/](https://calculator-khaki-eta-90.vercel.app/)
+* 🔍 **[personal-search-engine](https://github.com/Nikhil-Singh2745/personal-search-engine)** `[ C ]` — A tiny CLI tool that indexes text/markdown directories and ranks results using term-frequency. 
+* 🛑 **[rate-limiter](https://github.com/Nikhil-Singh2745/rate-limiter)** `[ Rust / Redis / Lua ]` — An HTTP service running a token-bucket rate limiter. Executes Lua scripts to handle atomic updates.
+* 📉 **[lag-sim](https://github.com/Nikhil-Singh2745/lag-sim)** `[ Rust / Vue.js ]` — A local internet lag simulator. Spins up a TCP proxy to intentionally drop packets, throttle traffic, and add delays.
 
-### 🚀 deadframe
-* **what it is:** a fast-paced 2d space shooter inspired by space invaders, because the world definitely needed another one of those. it combines arcade shoot-'em-up mechanics with a roguelite perk system so you can build weird synergies. instead of using a standard game engine, i just built a custom game loop using the raw html5 canvas api. 
-* **built with:** React 19, TypeScript, Vite, HTML5 Canvas, Tailwind CSS v4
-* **link:** [https://deadframe.vercel.app/](https://deadframe.vercel.app/)
+</details>
 
-### 🛸 cyber-city
-* **what it is:** an infinite cyberpunk drone-flying game. you pilot a drone through a procedurally generated neon metropolis that gets faster and harder as you pass through different zones. it has a "deathwish mode" where the speed is locked at maximum, buildings collapse into your path, and there are no shields. play it if you want to get unnecessarily stressed out.
-* **built with:** React, Three.js (via React Three Fiber & Drei), Zustand, Vite
-* **link:** [https://cyber-city-blush.vercel.app/](https://cyber-city-blush.vercel.app/)
-
-### 💻 glass-os
-* **what it is:** a cyberpunk-themed web desktop simulator. it has draggable windows, system monitoring graphs, a note editor that actually saves to local storage, and an interactive terminal that lets you run `cowsay` and `matrix` effects because i have a weak spot for terminal tropes. 
-* **built with:** React 19, Framer Motion, Tailwind CSS, Vite
-* **link:** [https://glass-os.vercel.app/](https://glass-os.vercel.app/)
-
----
-
-## older public stuff (from when i was a newbie)
-*i made these back when i was still figuring things out. they aren't amazing, they don't have live deployment links, and the code might make me cringe now, but the source code is public. read the readmes in the repos for instructions on how to run them locally.*
-
-### 🔍 personal-search-engine (open source)
-* **what it is:** a tiny, local cli tool that indexes a directory of plain text or markdown files and lets you search them from the terminal. it builds a basic inverted index and ranks results using a straightforward term-frequency score. meant for a few hundred files at most.
-* **built with:** C
-* **repo:** [https://github.com/Nikhil-Singh2745/personal-search-engine](https://github.com/Nikhil-Singh2745/personal-search-engine)
-
-### 🛑 rate-limiter (open source)
-* **what it is:** a small http service that tells you whether a request is allowed or blocked. it implements a token-bucket rate-limiting algorithm. it uses redis for storage and executes lua scripts to handle updates atomically so it doesn't break under race conditions. 
-* **built with:** Rust, Actix Web, Redis + Lua
-* **repo:** [https://github.com/Nikhil-Singh2745/rate-limiter](https://github.com/Nikhil-Singh2745/rate-limiter)
-
-### 📉 lag-sim (open source)
-* **what it is:** a local internet lag simulator. it spins up a tcp proxy on your localhost and intentionally messes up your traffic—throttling it, dropping packets, and introducing random delays. i built this mostly to learn how browser traffic flows and how websocket upgrades work at a frame level. there is a small web ui to control how terrible you want your connection to be.
-* **built with:** Rust, TCP/Networking basics, Vue.js
-* **repo:** [https://github.com/Nikhil-Singh2745/lag-sim](https://github.com/Nikhil-Singh2745/lag-sim)
+<hr>
+<p align="center"><i>If it runs in the browser, it can probably be pushed further.</i></p>
