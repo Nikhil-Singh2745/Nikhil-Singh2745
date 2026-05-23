@@ -28,3 +28,23 @@ i build whacky full-stack apps (usually unnecessarily over-engineered browser ga
 * **link:** https://crypt-f7ji.onrender.com/ 
 * **note:** it is hosted on render's free tier. it *will* go down after 15 minutes of inactivity. you are going to have to stare at a blank screen for 15-20 seconds while the container wakes up. do not complain to me, it is not my fault. read the repository readme if you want to see the animations/gifs immediately.
 * **Github link :** https://github.com/Nikhil-Singh2745/crypt *(Read the README, its there for a reason)*
+
+### 🌐 threshold 
+* **what it is:** a single-page webgl experience i built for a hackathon to see what would break first—the gpu, the browser, or me. the answer was me, twice. there is no game engine here. i used three.js for basic scene graph management, but the postprocessing pipeline, custom shaders, easing math, and audio scheduling are all completely handwritten. the entire application code is a stupidly small 9kb.
+* **built with:** Three.js, WebGL, Vanilla JS
+* **link:** [https://threshold-navy.vercel.app/](https://threshold-navy.vercel.app/)
+
+### 🦖 dino supreme
+* **what it is:** a satire of the chrome offline dinosaur game. the original game is supposed to be a low-effort distraction for when your internet dies. i decided to over-engineer it to an unnecessary degree just to see if i could keep the canvas performance stable while piling on useless features. 
+* **built with:** Next.js, React, TypeScript, HTML5 Canvas API
+* **link:** [https://dino-supreme.vercel.app/](https://dino-supreme.vercel.app/)
+
+### 📦 ecopack select v2
+* **what it is:** a 3D sustainable packaging configurator. this started as a basic college project, but i accidentally put way too much effort into it because i didn't know when to stop. it features a full blender-inspired ui and real-time eco-material visualization. one of my better three.js projects, even if it was for a grade.
+* **built with:** React, Three.js, Tailwind CSS
+* **link:** [https://ecopack-select-v2.vercel.app/](https://ecopack-select-v2.vercel.app/)
+
+### 🧮 calculator
+* **what it is:** a totally normal web calculator. it definitely does math, and definitely doesn't do anything weird when you start clicking the numbers. do not expect a standard grid; just click around and watch it break standard layout logic. 
+* **built with:** Next.js, TypeScript, Tailwind CSS
+* **link:** [https://calculator-khaki-eta-90.vercel.app/](https://calculator-khaki-eta-90.vercel.app/)
