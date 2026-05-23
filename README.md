@@ -1,8 +1,9 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=4000&pause=2000&color=A855F7&vCenter=true&center=true&width=500&lines=I+build+things.;Usually+over-engineered.;Sometimes+from+scratch.;Mostly+just+for+fun." alt="Typing Banner" />
+  <!-- Dynamic typing header with a razor-sharp modern font -->
+  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=4000&pause=2000&color=A855F7&vCenter=true&center=true&width=600&lines=I+build+things.;Usually+closer+to+the+metal.;Usually+to+answer+a+question+nobody+asked." alt="Typing Banner" />
   
-  <p><b>I build whacky full-stack apps, WebGL experiences, and custom databases.</b></p>
-  <p>I focus on pushing the browser to its absolute limits (or building things from scratch in C/Go when I feel like punishing myself). I am not currently looking for work, but feel free to explore my sandbox below.</p>
+  <p><b>I build whacky full-stack apps, WebGL experiences, and low-level software.</b></p>
+  <p>I focus on pushing the browser to its absolute limits, or breaking away from frameworks entirely to write things from scratch in C or Go when I feel like punishing myself. I am absolutely not looking for work, so please don't reach out with job opportunities—this is entirely my sandbox.</p>
 </div>
 
 <br>
