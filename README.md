@@ -48,3 +48,38 @@ i build whacky full-stack apps (usually unnecessarily over-engineered browser ga
 * **what it is:** a totally normal web calculator. it definitely does math, and definitely doesn't do anything weird when you start clicking the numbers. do not expect a standard grid; just click around and watch it break standard layout logic. 
 * **built with:** Next.js, TypeScript, Tailwind CSS
 * **link:** [https://calculator-khaki-eta-90.vercel.app/](https://calculator-khaki-eta-90.vercel.app/)
+
+### 🚀 deadframe
+* **what it is:** a fast-paced 2d space shooter inspired by space invaders, because the world definitely needed another one of those. it combines arcade shoot-'em-up mechanics with a roguelite perk system so you can build weird synergies. instead of using a standard game engine, i just built a custom game loop using the raw html5 canvas api. 
+* **built with:** React 19, TypeScript, Vite, HTML5 Canvas, Tailwind CSS v4
+* **link:** [https://deadframe.vercel.app/](https://deadframe.vercel.app/)
+
+### 🛸 cyber-city
+* **what it is:** an infinite cyberpunk drone-flying game. you pilot a drone through a procedurally generated neon metropolis that gets faster and harder as you pass through different zones. it has a "deathwish mode" where the speed is locked at maximum, buildings collapse into your path, and there are no shields. play it if you want to get unnecessarily stressed out.
+* **built with:** React, Three.js (via React Three Fiber & Drei), Zustand, Vite
+* **link:** [https://cyber-city-blush.vercel.app/](https://cyber-city-blush.vercel.app/)
+
+### 💻 glass-os
+* **what it is:** a cyberpunk-themed web desktop simulator. it has draggable windows, system monitoring graphs, a note editor that actually saves to local storage, and an interactive terminal that lets you run `cowsay` and `matrix` effects because i have a weak spot for terminal tropes. 
+* **built with:** React 19, Framer Motion, Tailwind CSS, Vite
+* **link:** [https://glass-os.vercel.app/](https://glass-os.vercel.app/)
+
+---
+
+## older public stuff (from when i was a newbie)
+*i made these back when i was still figuring things out. they aren't amazing, they don't have live deployment links, and the code might make me cringe now, but the source code is public. read the readmes in the repos for instructions on how to run them locally.*
+
+### 🔍 personal-search-engine (open source)
+* **what it is:** a tiny, local cli tool that indexes a directory of plain text or markdown files and lets you search them from the terminal. it builds a basic inverted index and ranks results using a straightforward term-frequency score. meant for a few hundred files at most.
+* **built with:** C
+* **repo:** [https://github.com/Nikhil-Singh2745/personal-search-engine](https://github.com/Nikhil-Singh2745/personal-search-engine)
+
+### 🛑 rate-limiter (open source)
+* **what it is:** a small http service that tells you whether a request is allowed or blocked. it implements a token-bucket rate-limiting algorithm. it uses redis for storage and executes lua scripts to handle updates atomically so it doesn't break under race conditions. 
+* **built with:** Rust, Actix Web, Redis + Lua
+* **repo:** [https://github.com/Nikhil-Singh2745/rate-limiter](https://github.com/Nikhil-Singh2745/rate-limiter)
+
+### 📉 lag-sim (open source)
+* **what it is:** a local internet lag simulator. it spins up a tcp proxy on your localhost and intentionally messes up your traffic—throttling it, dropping packets, and introducing random delays. i built this mostly to learn how browser traffic flows and how websocket upgrades work at a frame level. there is a small web ui to control how terrible you want your connection to be.
+* **built with:** Rust, TCP/Networking basics, Vue.js
+* **repo:** [https://github.com/Nikhil-Singh2745/lag-sim](https://github.com/Nikhil-Singh2745/lag-sim)
