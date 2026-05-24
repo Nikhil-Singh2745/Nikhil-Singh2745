@@ -6,8 +6,8 @@
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=4000&pause=2000&color=F8FAFC&vCenter=true&center=true&width=600&lines=I+build+things.;Usually+closer+to+the+metal.;to+answer+a+question+nobody+asked.">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=4000&pause=2000&color=0F172A&vCenter=true&center=true&width=600&lines=I+build+things.;Usually+closer+to+the+metal.;to+answer+a+question+nobody+asked.">
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=4000&pause=2000&color=a855f7&vCenter=true&center=true&width=600&lines=I+build+things.;Usually+closer+to+the+metal.;to+answer+a+question+nobody+asked.">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=4000&pause=2000&color=a855f7&vCenter=true&center=true&width=600&lines=I+build+things.;Usually+closer+to+the+metal.;to+answer+a+question+nobody+asked.">
     <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=4000&pause=2000&color=F8FAFC&vCenter=true&center=true&width=600&lines=I+build+things.;Usually+closer+to+the+metal.;to+answer+a+question+nobody+asked." alt="Typing Banner" />
   </picture>
   
