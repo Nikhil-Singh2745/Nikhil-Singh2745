@@ -1,6 +1,6 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=21262d&height=90&section=header">
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=f0f2f5&height=90&section=header">
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=45FFF9d&height=90&section=header">
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=454BFF&height=90&section=header">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=21262d&height=90&section=header" width="100%" />
 </picture>
 
