@@ -57,7 +57,7 @@
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=_0d0020&amp;height=46&amp;text=%E2%9C%A6%20The%20WebGL%20%26%20Canvas%20Sandbox&amp;fontSize=17&amp;fontColor=a78bfa&amp;fontAlign=50&amp;fontAlignY=62" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=rect&amp;color=_0d0020&amp;height=46&amp;text=%E2%9C%A6%20The%20WebGL%20and%20Canvas%20Sandbox&amp;fontSize=17&amp;fontColor=a78bfa&amp;fontAlign=50&amp;fontAlignY=62" width="100%" />
 
 <table width="100%">
   <tr>
