@@ -32,7 +32,7 @@
       <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
       <br><br>
       <a href="https://blog-nine-phi-25.vercel.app/"><b>[ Live Site ]</b></a> • 
-      <a href="https://blog-nine-phi-25.vercel.app/">Read: <i>I keep writing tRPC for no reason</i></a>
+      <a href="https://blog-nine-phi-25.vercel.app/posts/trpc-for-no-reason">Read: <i>I keep writing tRPC for no reason</i></a>
     </td>
     <td width="50%" valign="top">
       <h3>🛸 Cyber-City</h3>
