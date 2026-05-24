@@ -159,7 +159,7 @@
 </div>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=21262d&height=90&section=footer">
-  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=f0f2f5&height=90&section=footer">
+  <source media="(prefers-color-scheme: dark)" srcset="https://capsule-render.vercel.app/api?type=waving&color=69f58e&height=90&section=footer">
+  <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=454BFF&height=90&section=footer">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=21262d&height=90&section=footer" width="100%" />
 </picture>
