@@ -16,7 +16,7 @@
 
   <br>
 
-  <img src="https://skillicons.dev/icons?i=c,go,rust,php,js,react,nextjs,laravel,vue&theme=dark" alt="Tech stack" />
+  <img src="https://skillicons.dev/icons?i=c,cpp,go,rust,php,js,react,nextjs,laravel,vue&theme=dark" alt="Tech stack" />
 </div>
 
 <br>
@@ -59,6 +59,30 @@
       <br><br>
       <a href="https://rawth-production.up.railway.app/"><b>[ Live Demo ]</b></a> • 
       <a href="https://github.com/Nikhil-Singh2745/rawth"><b>[ Source Code ]</b></a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+## ─── ✦ Latency Chasing & Quant-Adjacent Systems ───
+<div align="center">
+  <br>
+  <i>Building pre-built infrastructure catering to HFT spaces or multi-strategy quantitative funds like D.E. Shaw. Where microseconds are a personal insult.</i>
+  <br><br>
+</div>
+
+<table width="100%">
+  <tr>
+    <td width="100%" valign="top">
+      <h3>⚡ NanoMQ</h3>
+      <p>A lock-free SPSC inter-process message queue operating over POSIX shared memory (<code>shm_open</code>/<code>mmap</code>), written entirely from scratch in C++20. It completely evicts the operating system kernel from the messaging hot path—zero syscalls, zero locks, and absolutely no data copying beyond the slot write.</p>
+      <p>Features explicit cache-line isolation to eliminate false sharing, strict acquire/release memory ordering (where <code>seq_cst</code> is legally banned to prevent pointless fences), and inline <code>rdtsc</code> instruction monitoring. Clocked a <b>44 ns minimum latency</b> on a highly constrained thin-and-light laptop running WSL2, meaning the p99 tail latencies are entirely due to the Windows hypervisor having scheduling anxiety rather than the queue itself.</p>
+      <img src="https://img.shields.io/badge/C%2B%2B-20-blue.svg?style=for-the-badge&logo=cplusplus&logoColor=white" />
+      <img src="https://img.shields.io/badge/Memory_Ordering-Acquire%2FRelease-orange?style=for-the-badge" />
+      <img src="https://img.shields.io/badge/Min_Latency-44_ns-brightgreen?style=for-the-badge" />
+      <br><br>
+      <a href="https://github.com/Nikhil-Singh2745/nanomq"><b>[ Source Code & Architecture ]</b></a>
     </td>
   </tr>
 </table>
