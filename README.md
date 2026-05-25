@@ -77,7 +77,7 @@
     <td width="100%" valign="top">
       <h3>⚡ NanoMQ</h3>
       <p>A lock-free SPSC inter-process message queue operating over POSIX shared memory (<code>shm_open</code>/<code>mmap</code>), written entirely from scratch in C++20. It completely evicts the operating system kernel from the messaging hot path—zero syscalls, zero locks, and absolutely no data copying beyond the slot write.</p>
-      <p>Features explicit cache-line isolation to eliminate false sharing, strict acquire/release memory ordering (where <code>seq_cst</code> is legally banned to prevent pointless fences), and inline <code>rdtsc</code> instruction monitoring. Clocked a <b>44 ns minimum latency</b> on a highly constrained thin-and-light laptop running WSL2, meaning the p99 tail latencies are entirely due to the Windows hypervisor having scheduling anxiety rather than the queue itself.</p>
+      <p>Features explicit cache-line isolation to eliminate false sharing, strict acquire/release memory ordering (where <code>seq_cst</code> is legally banned to prevent pointless fences), and inline <code>rdtsc</code> instruction monitoring. </p>
       <img src="https://img.shields.io/badge/C%2B%2B-20-blue.svg?style=for-the-badge&logo=cplusplus&logoColor=white" />
       <img src="https://img.shields.io/badge/Memory_Ordering-Acquire%2FRelease-orange?style=for-the-badge" />
       <img src="https://img.shields.io/badge/Min_Latency-44_ns-brightgreen?style=for-the-badge" />
