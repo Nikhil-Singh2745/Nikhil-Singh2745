@@ -121,6 +121,24 @@
 
 <br>
 
+## ─── ✦ PHP Backend Autopsies ───
+*A series of projects I built to understand how specific backend subsystems actually work. No frontends. No deploy links. No point pretending otherwise. Recently open-sourced because they were just sitting there.*
+
+<table width="100%">
+  <tr>
+    <td width="100%" valign="top">
+      <h3>💳 VaultLedger</h3>
+      <p>A Stripe-inspired payment orchestration engine built to map the underlying complexity of money movement. Includes an append-only event-sourced state machine, a rigorous double-entry accounting ledger that bans floating-point numbers, a local SQLite-friendly idempotency layer, and an asynchronous webhook delivery framework complete with HMAC payload verification and automated circuit breakers. It doesn't handle real credit cards, which is probably for the best.</p>
+      <img src="https://img.shields.io/badge/Laravel_12-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+      <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+      <br><br>
+      <a href="https://github.com/Nikhil-Singh2745/vaultledger"><b>[ Source Code ]</b></a>
+    </td>
+  </tr>
+</table>
+
+<br>
+
 ## ─── ✦ Honorable Mentions ───
 
 <table width="100%">
