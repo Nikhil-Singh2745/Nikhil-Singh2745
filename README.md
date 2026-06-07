@@ -57,7 +57,6 @@
       <p>A key-value database built entirely from scratch. Features a custom B+Tree, custom binary file format, query language, and its own WebSocket server. Zero external dependencies. No Postgres, no SQLite. Not the wise choice, but that was the point.</p>
       <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
       <br><br>
-      <a href="https://rawth-production.up.railway.app/"><b>[ Live Demo ]</b></a> • 
       <a href="https://github.com/Nikhil-Singh2745/rawth"><b>[ Source Code ]</b></a>
     </td>
   </tr>
