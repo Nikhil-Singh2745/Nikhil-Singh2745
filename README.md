@@ -21,13 +21,27 @@
 
 <br>
 
+## ─── ✦ Coredump ───
+
+<div align="center">
+  <br>
+  <i>Documenting the exact mechanisms by which systems programming silently punishes optimism.</i>
+  <br><br>
+</div>
+
+* 🧠 **[a personal search engine on the Neural Engine](https://nikhil-singh2745.github.io/dumps/003-local-semantic-search-ane/)** — Forcing unused Apple Silicon to do semantic text vectorization, mostly because the hardware was just sitting there.
+* ⏱️ **[the userspace spinlock is a bet against the scheduler](https://nikhil-singh2745.github.io/dumps/002-userspace-spinlock-scheduler-bet/)** — A 128× performance cliff decided entirely by whether you actually own the core. 
+* 💥 **[the bimodal cost of `std::vector` reallocation](https://nikhil-singh2745.github.io/dumps/001-bimodal-vector-reallocation/)** — How forgetting a single `noexcept` keyword triggers a 40× slowdown on memory reallocation.
+
+<br>
+
 ## ─── ✦ Featured Experiments ───
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
       <h3>📚 Reading Room</h3>
-      <p>A violently over-engineered blog. Built as a satire of generic template clones. There is no CMS and no MDX—every post is a handwritten React component with custom per-post palettes, a debug HUD, and a 0.3° HTML layout tilt saved in <code>localStorage</code>.</p>
+      <p>A violently over-engineered blog, now permanently abandoned because maintaining it was a nightmare. Built as a satire of generic templates, there is no CMS and no MDX, every post is a handwritten React component with custom per-post palettes and a 0.3° HTML layout tilt. It became so weirdly exhausting to write a simple post that I just stopped. A fitting monument to why I moved on from full-stack and MLOps.</p>
       <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
       <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
       <br><br>
