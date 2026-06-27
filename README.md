@@ -112,9 +112,25 @@
       <a href="https://threshold-navy.vercel.app/"><b>[ Launch Experience ]</b></a>
     </td>
     <td width="50%" valign="top">
+      <h3>✂️ Offcut</h3>
+      <p>A premium design portfolio for a studio that does not exist. Pure vanilla HTML, CSS, and JS pushed past sanity. Features zero libraries, an interactive paint canvas for scribbling virtual ink, and client case studies where the copywriter clearly gave up halfway through. Hand-rolled in less than 24 hours because I didn't want to invest actual time into it.</p>
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+      <br><br>
+      <a href="https://offcut-chi.vercel.app/"><b>[ Visit Studio ]</b></a> • <a href="https://github.com/Nikhil-Singh2745/offcut"><b>[ Source Code ]</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
       <h3>🚀 Deadframe</h3>
       <p>A fast-paced 2D space shooter with a roguelite perk system. Bypassed standard game engines entirely to build a custom rendering loop from scratch using the raw HTML5 Canvas API.</p>
       <a href="https://deadframe.vercel.app/"><b>[ Play Game ]</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📦 Ecopack Select v2</h3>
+      <p>A 3D packaging configurator with a Blender-inspired UI. Started as a basic college project, but I accidentally put way too much effort into it because I didn't know when to stop.</p>
+      <a href="https://ecopack-select-v2.vercel.app/"><b>[ View Configurator ]</b></a>
     </td>
   </tr>
   <tr>
@@ -124,10 +140,7 @@
       <a href="https://glass-os.vercel.app/"><b>[ Boot OS ]</b></a>
     </td>
     <td width="50%" valign="top">
-      <h3>📦 Ecopack Select v2</h3>
-      <p>A 3D packaging configurator with a Blender-inspired UI. Started as a basic college project, but I accidentally put way too much effort into it because I didn't know when to stop.</p>
-      <a href="https://ecopack-select-v2.vercel.app/"><b>[ View Configurator ]</b></a>
-    </td>
+      </td>
   </tr>
 </table>
 
