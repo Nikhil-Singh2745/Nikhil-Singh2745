@@ -98,6 +98,18 @@
       <a href="https://github.com/Nikhil-Singh2745/nanomq"><b>[ Source Code & Architecture ]</b></a>
     </td>
   </tr>
+  <tr>
+    <td width="100%" valign="top">
+      <br>
+      <h3>📈 Stoikov Micro-Price Estimator</h3>
+      <p>A self-contained, dependency-free C++17 implementation of the Stoikov (2018) micro-price framework. It models L1 order book snapshots as an absorbing Markov chain and resolves the fair-value adjustment vector via vanilla Gaussian elimination and fixed-point iteration. Evaluated on a synthetic, signal-embedded AR(1) order book stream.</p>
+      <p><b>To be completely clear: this is not NanoMQ.</b> There is no shared-memory trickery, no lock-free atomics, and no obsessive cache-line alignment. It is a pure mathematical playground that won't insult a microsecond, but it successfully out-predicts standard mid-prices at longer horizons if you trust the simulator.</p>
+      <img src="https://img.shields.io/badge/C%2B%2B-17-blue.svg?style=for-the-badge&logo=cplusplus&logoColor=white" />
+      <img src="https://img.shields.io/badge/Math-Markov_Chains-blueviolet?style=for-the-badge" />
+      <br><br>
+      <a href="https://github.com/Nikhil-Singh2745/stoikov-micro-price-estimator"><b>[ Source Code ]</b></a>
+    </td>
+  </tr>
 </table>
 
 <br>
