@@ -5,13 +5,13 @@
 </picture>
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=4000&pause=2000&color=a855f7&vCenter=true&center=true&width=600&lines=I+build+things.;Usually+closer+to+the+metal.;to+answer+a+question+nobody+asked.">
-    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=4000&pause=2000&color=a855f7&vCenter=true&center=true&width=600&lines=I+build+things.;Usually+closer+to+the+metal.;to+answer+a+question+nobody+asked.">
-    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=4000&pause=2000&color=F8FAFC&vCenter=true&center=true&width=600&lines=I+build+things.;Usually+closer+to+the+metal.;to+answer+a+question+nobody+asked." alt="Typing Banner" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=4000&pause=2000&color=a855f7&vCenter=true&center=true&width=600&lines=I+build+systems.;I+chase+latency.;Sometimes+there+is+a+frontend.">
+    <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=4000&pause=2000&color=a855f7&vCenter=true&center=true&width=600&lines=I+build+systems.;I+chase+latency.;Sometimes+there+is+a+frontend.">
+    <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=4000&pause=2000&color=F8FAFC&vCenter=true&center=true&width=600&lines=I+build+systems.;I+chase+latency.;Sometimes+there+is+a+frontend." alt="Typing Banner" />
   </picture>
   
-  <p><b>I build whacky full-stack apps, WebGL experiences, and low-level software.</b></p>
-  <p>I focus on pushing the browser to its absolute limits, or breaking away from frameworks entirely to write things from scratch in C or Go or Rust when I feel like punishing myself. Not looking for work.</p>
+  <p><b>I build low-latency systems, backend infrastructure, and quantitative experiments from first principles.</b></p>
+  <p>Most of my work lives around concurrency, memory layout, storage engines, authorization, and market microstructure—usually in C++, Go, Rust, or PHP. I can also take an idea through the full stack, and occasionally push WebGL or Canvas further than is sensible when the problem deserves an interface. Not looking for work.</p>
 
   <br>
 
@@ -224,7 +224,7 @@
 <br>
 
 <div align="center">
-  <i>If it runs in the browser, it can probably be pushed further.</i>
+  <i>Systems first. Full-stack when the problem needs an interface.</i>
 </div>
 
 <picture>
