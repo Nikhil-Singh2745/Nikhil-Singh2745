@@ -38,18 +38,16 @@
 
 <table width="100%">
   <tr>
-    <td width="100%" valign="top">
+    <td width="50%" valign="top">
       <h3>⚡ NanoMQ</h3>
       <p>A lock-free SPSC inter-process queue over POSIX shared memory, written from scratch in C++20. The hot path uses zero syscalls and zero locks, with cache-line isolation, acquire/release ordering, and inline <code>rdtsc</code> instrumentation.</p>
       <img src="https://img.shields.io/badge/C%2B%2B-20-blue.svg?style=for-the-badge&logo=cplusplus&logoColor=white" />
+      <img src="https://img.shields.io/badge/Memory_Ordering-Acquire%2FRelease-orange?style=for-the-badge" />
       <img src="https://img.shields.io/badge/Min_Latency-44_ns-brightgreen?style=for-the-badge" />
       <br><br>
       <a href="https://github.com/Nikhil-Singh2745/nanomq"><b>[ Source Code & Architecture ]</b></a>
     </td>
-  </tr>
-  <tr>
-    <td width="100%" valign="top">
-      <br>
+    <td width="50%" valign="top">
       <h3>📈 Stoikov Micro-Price Estimator</h3>
       <p>A dependency-free C++17 implementation of the Stoikov micro-price framework, modeling L1 order-book snapshots as an absorbing Markov chain and solving the fair-value adjustment directly.</p>
       <img src="https://img.shields.io/badge/C%2B%2B-17-blue.svg?style=for-the-badge&logo=cplusplus&logoColor=white" />
@@ -66,7 +64,7 @@
 
 <table width="100%">
   <tr>
-    <td width="100%" valign="top">
+    <td width="50%" valign="top">
       <h3>🧠 Admit</h3>
       <p>An admission-controlled Go cache comparing W-TinyLFU against LRU and LFU. Includes a packed Count-Min Sketch, self-aging frequency estimates, segmented LRU, and reproducible benchmarks for skew, scans, and concept drift.</p>
       <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
@@ -74,16 +72,17 @@
       <br><br>
       <a href="https://github.com/Nikhil-Singh2745/Admit"><b>[ Source Code & Benchmarks ]</b></a>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>🔐 authz-engine</h3>
       <p>A Zanzibar-inspired relationship-based authorization engine with rewrite-rule evaluation, cycle detection, memoization, depth limits, and zookie-versioned caching.</p>
       <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
       <img src="https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white" />
+      <img src="https://img.shields.io/badge/Authorization-ReBAC-blueviolet?style=for-the-badge" />
       <br><br>
       <a href="https://github.com/Nikhil-Singh2745/authz-engine"><b>[ Source Code & Architecture ]</b></a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>💳 VaultLedger</h3>
       <p>A payment orchestration engine with event-sourced state, double-entry accounting, idempotency, signed webhook delivery, and circuit breakers.</p>
@@ -92,6 +91,7 @@
       <br><br>
       <a href="https://github.com/Nikhil-Singh2745/vaultledger"><b>[ Source Code ]</b></a>
     </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
@@ -118,15 +118,17 @@
     </td>
   </tr>
   <tr>
-    <td width="100%" valign="top" colspan="2">
+    <td width="50%" valign="top">
       <h3>🎵 WaveCraft</h3>
       <p>A browser-based music DSL whose PHP backend lexes notation into an AST, synthesizes raw PCM with oscillators and ADSR envelopes, and encodes the result as a WAV file—with no audio libraries.</p>
       <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
       <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+      <img src="https://img.shields.io/badge/Vanilla_JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
       <br><br>
       <a href="https://wavecraft-s13f.onrender.com/"><b>[ Live Demo ]</b></a> •
       <a href="https://github.com/Nikhil-Singh2745/Wavecraft"><b>[ Source Code ]</b></a>
     </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
@@ -144,6 +146,9 @@
     <td width="50%" valign="top">
       <h3>🛸 Cyber-City</h3>
       <p>An infinite drone-flying game set in a procedurally generated neon city, including a maximum-speed Deathwish Mode.</p>
+      <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" />
+      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+      <br><br>
       <a href="https://cyber-city-blush.vercel.app/"><b>[ Play Game ]</b></a>
     </td>
   </tr>
@@ -151,6 +156,10 @@
     <td width="50%" valign="top">
       <h3>✂️ Offcut</h3>
       <p>A fictional design-studio portfolio built with vanilla HTML, CSS, and JavaScript, including an interactive paint canvas.</p>
+      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+      <br><br>
       <a href="https://offcut-chi.vercel.app/"><b>[ Visit Studio ]</b></a> •
       <a href="https://github.com/Nikhil-Singh2745/offcut"><b>[ Source Code ]</b></a>
     </td>
@@ -176,8 +185,11 @@
     <td width="50%" valign="top">
       <h3>📚 Reading Room</h3>
       <p>An intentionally over-engineered blog where every post is a custom React component with its own palette and layout.</p>
+      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+      <br><br>
       <a href="https://blog-nine-phi-25.vercel.app/"><b>[ Live Site ]</b></a> •
-      <a href="https://blog-nine-phi-25.vercel.app/posts/trpc-for-no-reason">Read: <i>I keep writing tRPC for no reason</i></a>
+      <a href="https://blog-nine-phi-25.vercel.app/posts/trpc-for-no-reason"><b>[ Read Post ]</b></a>
     </td>
     <td width="50%" valign="top">
       <h3>🦖 Dino Supreme</h3>
@@ -186,11 +198,12 @@
     </td>
   </tr>
   <tr>
-    <td width="100%" valign="top" colspan="2">
+    <td width="50%" valign="top">
       <h3>🧮 Calculator</h3>
       <p>A deliberately uncooperative calculator that breaks standard layout behavior as you use it.</p>
       <a href="https://calculator-khaki-eta-90.vercel.app/"><b>[ Calculate ]</b></a>
     </td>
+    <td width="50%" valign="top"></td>
   </tr>
 </table>
 
