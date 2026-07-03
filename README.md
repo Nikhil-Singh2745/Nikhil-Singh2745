@@ -3,7 +3,6 @@
   <source media="(prefers-color-scheme: light)" srcset="https://capsule-render.vercel.app/api?type=waving&color=454BFF&height=90&section=header">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=21262d&height=90&section=header" width="100%" />
 </picture>
-
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=4000&pause=2000&color=a855f7&vCenter=true&center=true&width=600&lines=I+build+things.;Usually+closer+to+the+metal.;to+answer+a+question+nobody+asked.">
@@ -36,32 +35,13 @@
 <br>
 
 ## ─── ✦ Low-Latency & Quant Systems ───
-<div align="center">
-  <br>
-  <i>Building pre-built infrastructure catering to HFT spaces or multi-strategy quantitative funds like D.E. Shaw. Where microseconds are a personal insult.</i>
-  <br><br>
-</div>
 
 <table width="100%">
   <tr>
     <td width="100%" valign="top">
-      <h3>🧠 Admit</h3>
-      <p>An admission-controlled cache implemented from scratch in Go to test whether W-TinyLFU actually earns its complexity over plain LRU and LFU. It includes a packed 4-bit Count-Min Sketch, self-aging frequency estimates, a window cache, and a segmented-LRU main cache, all behind one shared interface with zero external dependencies.</p>
-      <p>The repository is structured as a reproducible research note rather than a library pitch: synthetic traces isolate stationary skew, scan pollution, and concept drift, then benchmark hit ratio and throughput across all three policies. W-TinyLFU matches or beats LFU across the tested workloads without inheriting LFU's inability to forget stale popularity.</p>
-      <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-      <img src="https://img.shields.io/badge/Cache-W--TinyLFU-brightgreen?style=for-the-badge" />
-      <br><br>
-      <a href="https://github.com/Nikhil-Singh2745/Admit"><b>[ Source Code & Benchmarks ]</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="100%" valign="top">
-      <br>
       <h3>⚡ NanoMQ</h3>
-      <p>A lock-free SPSC inter-process message queue operating over POSIX shared memory (<code>shm_open</code>/<code>mmap</code>), written entirely from scratch in C++20. It completely evicts the operating system kernel from the messaging hot path—zero syscalls, zero locks, and absolutely no data copying beyond the slot write.</p>
-      <p>Features explicit cache-line isolation to eliminate false sharing, strict acquire/release memory ordering (where <code>seq_cst</code> is legally banned to prevent pointless fences), and inline <code>rdtsc</code> instruction monitoring. </p>
+      <p>A lock-free SPSC inter-process queue over POSIX shared memory, written from scratch in C++20. The hot path uses zero syscalls and zero locks, with cache-line isolation, acquire/release ordering, and inline <code>rdtsc</code> instrumentation.</p>
       <img src="https://img.shields.io/badge/C%2B%2B-20-blue.svg?style=for-the-badge&logo=cplusplus&logoColor=white" />
-      <img src="https://img.shields.io/badge/Memory_Ordering-Acquire%2FRelease-orange?style=for-the-badge" />
       <img src="https://img.shields.io/badge/Min_Latency-44_ns-brightgreen?style=for-the-badge" />
       <br><br>
       <a href="https://github.com/Nikhil-Singh2745/nanomq"><b>[ Source Code & Architecture ]</b></a>
@@ -71,8 +51,7 @@
     <td width="100%" valign="top">
       <br>
       <h3>📈 Stoikov Micro-Price Estimator</h3>
-      <p>A self-contained, dependency-free C++17 implementation of the Stoikov (2018) micro-price framework. It models L1 order book snapshots as an absorbing Markov chain and resolves the fair-value adjustment vector via vanilla Gaussian elimination and fixed-point iteration. Evaluated on a synthetic, signal-embedded AR(1) order book stream.</p>
-      <p><b>To be completely clear: this is not NanoMQ.</b> There is no shared-memory trickery, no lock-free atomics, and no obsessive cache-line alignment. It is a pure mathematical playground that won't insult a microsecond, but it successfully out-predicts standard mid-prices at longer horizons if you trust the simulator.</p>
+      <p>A dependency-free C++17 implementation of the Stoikov micro-price framework, modeling L1 order-book snapshots as an absorbing Markov chain and solving the fair-value adjustment directly.</p>
       <img src="https://img.shields.io/badge/C%2B%2B-17-blue.svg?style=for-the-badge&logo=cplusplus&logoColor=white" />
       <img src="https://img.shields.io/badge/Math-Markov_Chains-blueviolet?style=for-the-badge" />
       <br><br>
@@ -83,77 +62,67 @@
 
 <br>
 
-## ─── ✦ Selected Systems & Experiments ───
-
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🗄️ Rawth</h3>
-      <p>A key-value database built entirely from scratch. Features a custom B+Tree, custom binary file format, query language, and its own WebSocket server. Zero external dependencies. No Postgres, no SQLite. Not the wise choice, but that was the point.</p>
-      <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
-      <br><br>
-      <a href="https://github.com/Nikhil-Singh2745/rawth"><b>[ Source Code ]</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏰 Crypt</h3>
-      <p>A turn-based dungeon crawler living entirely on a server. No game engine, no JS framework. The frontend is literally a <code>&lt;pre&gt;</code> tag in a fake terminal. Every keypress is a fetch(). If the server reboots, you die permanently. Roguelike-correct.</p>
-      <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
-      <br><br>
-      <a href="https://crypt-f7ji.onrender.com/"><b>[ Enter Dungeon ]</b></a> •
-      <a href="https://github.com/Nikhil-Singh2745/crypt"><b>[ Source & Gifs ]</b></a>
-    </td>
-  </tr>
-</table>
-
-<br>
-
-## ─── ✦ Backend Systems & Internals ───
-*A series of projects I built to understand how specific backend subsystems actually work. No frontends. No deploy links. No point pretending otherwise. Recently open-sourced because they were just sitting there.*
+## ─── ✦ Backend Systems ───
 
 <table width="100%">
   <tr>
     <td width="100%" valign="top">
+      <h3>🧠 Admit</h3>
+      <p>An admission-controlled Go cache comparing W-TinyLFU against LRU and LFU. Includes a packed Count-Min Sketch, self-aging frequency estimates, segmented LRU, and reproducible benchmarks for skew, scans, and concept drift.</p>
+      <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+      <img src="https://img.shields.io/badge/Cache-W--TinyLFU-brightgreen?style=for-the-badge" />
+      <br><br>
+      <a href="https://github.com/Nikhil-Singh2745/Admit"><b>[ Source Code & Benchmarks ]</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🔐 authz-engine</h3>
+      <p>A Zanzibar-inspired relationship-based authorization engine with rewrite-rule evaluation, cycle detection, memoization, depth limits, and zookie-versioned caching.</p>
+      <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
+      <img src="https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white" />
+      <br><br>
+      <a href="https://github.com/Nikhil-Singh2745/authz-engine"><b>[ Source Code & Architecture ]</b></a>
+    </td>
+    <td width="50%" valign="top">
       <h3>💳 VaultLedger</h3>
-      <p>A Stripe-inspired payment orchestration engine built to map the underlying complexity of money movement. Includes an append-only event-sourced state machine, a rigorous double-entry accounting ledger that bans floating-point numbers, a local SQLite-friendly idempotency layer, and an asynchronous webhook delivery framework complete with HMAC payload verification and automated circuit breakers. It doesn't handle real credit cards, which is probably for the best.</p>
+      <p>A payment orchestration engine with event-sourced state, double-entry accounting, idempotency, signed webhook delivery, and circuit breakers.</p>
       <img src="https://img.shields.io/badge/Laravel_12-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
       <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
       <br><br>
       <a href="https://github.com/Nikhil-Singh2745/vaultledger"><b>[ Source Code ]</b></a>
     </td>
   </tr>
-  <tr>
-    <td width="100%" valign="top">
-      <br>
-      <h3>🔐 authz-engine</h3>
-      <p>A relationship-based access control engine modeled on Google's Zanzibar paper. It resolves direct and inherited permissions from relation tuples through a five-node rewrite-rule AST, with cycle detection, per-request memoization, depth limits, and flattened Check/Expand results. The domain layer has zero framework imports; Symfony and Doctrine handle the HTTP and persistence plumbing around it.</p>
-      <p>Writes atomically advance a global zookie version, and cache keys include that version, so stale entries become unreachable instead of requiring dependency-aware invalidation. It is deliberately a single-node SQLite implementation rather than a distributed-system costume: the consistency mechanism is real, but there is no replica around for it to distrust yet.</p>
-      <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-      <img src="https://img.shields.io/badge/Symfony-000000?style=for-the-badge&logo=symfony&logoColor=white" />
-      <img src="https://img.shields.io/badge/Authorization-ReBAC-blueviolet?style=for-the-badge" />
-      <br><br>
-      <a href="https://github.com/Nikhil-Singh2745/authz-engine"><b>[ Source Code & Architecture ]</b></a>
-    </td>
-  </tr>
 </table>
 
 <br>
 
-## ─── ✦ Audio, Parsing & Synthesis ───
-
-<div align="center">
-  <br>
-  <i>I don't particularly enjoy PHP. I am, unfortunately, quite good at it.</i>
-  <br><br>
-</div>
+## ─── ✦ Full-Stack Systems ───
 
 <table width="100%">
   <tr>
-    <td width="100%" valign="top">
+    <td width="50%" valign="top">
+      <h3>🗄️ Rawth</h3>
+      <p>A zero-dependency key-value database built from scratch in Go, including a B+Tree, binary file format, query language, and WebSocket server.</p>
+      <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+      <br><br>
+      <a href="https://github.com/Nikhil-Singh2745/rawth"><b>[ Source Code ]</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏰 Crypt</h3>
+      <p>A server-resident turn-based dungeon crawler written in C. The frontend is a <code>&lt;pre&gt;</code> tag, every keypress is a request, and a server restart means permanent death.</p>
+      <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+      <br><br>
+      <a href="https://crypt-f7ji.onrender.com/"><b>[ Enter Dungeon ]</b></a> •
+      <a href="https://github.com/Nikhil-Singh2745/crypt"><b>[ Source & Gifs ]</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top" colspan="2">
       <h3>🎵 WaveCraft</h3>
-      <p>A web-based audio synthesizer with its own domain-specific language. You write music notation in the browser; the server lexes and parses it into an AST, walks it to generate raw PCM samples via oscillator math, applies ADSR envelopes, and encodes the result as a binary WAV file. No audio libraries. The entire synthesis pipeline is implemented in PHP, which was nobody's first recommendation.</p>
+      <p>A browser-based music DSL whose PHP backend lexes notation into an AST, synthesizes raw PCM with oscillators and ADSR envelopes, and encodes the result as a WAV file—with no audio libraries.</p>
       <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
       <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
-      <img src="https://img.shields.io/badge/Vanilla_JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
       <br><br>
       <a href="https://wavecraft-s13f.onrender.com/"><b>[ Live Demo ]</b></a> •
       <a href="https://github.com/Nikhil-Singh2745/Wavecraft"><b>[ Source Code ]</b></a>
@@ -163,81 +132,63 @@
 
 <br>
 
-## ─── ✦ WebGL & Canvas Experiments ───
+## ─── ✦ Frontend & Browser Experiments ───
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
       <h3>🌐 Threshold</h3>
-      <p>A single-page WebGL experience built to see what would break first: the GPU, the browser, or me. Zero abstractions beyond Three.js scene graphs. Shaders and audio math are handwritten. The application logic is a microscopic 9kb.</p>
+      <p>A compact WebGL experience with handwritten shaders, audio math, and roughly 9 KB of application logic.</p>
       <a href="https://threshold-navy.vercel.app/"><b>[ Launch Experience ]</b></a>
     </td>
     <td width="50%" valign="top">
-      <h3>✂️ Offcut</h3>
-      <p>A premium design portfolio for a studio that does not exist. Pure vanilla HTML, CSS, and JS pushed past sanity. Features zero libraries, an interactive paint canvas for scribbling virtual ink, and client case studies where the copywriter clearly gave up halfway through. Hand-rolled in less than 24 hours because I didn't want to invest actual time into it.</p>
-      <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-      <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-      <br><br>
-      <a href="https://offcut-chi.vercel.app/"><b>[ Visit Studio ]</b></a> • <a href="https://github.com/Nikhil-Singh2745/offcut"><b>[ Source Code ]</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🚀 Deadframe</h3>
-      <p>A fast-paced 2D space shooter with a roguelite perk system. Bypassed standard game engines entirely to build a custom rendering loop from scratch using the raw HTML5 Canvas API.</p>
-      <a href="https://deadframe.vercel.app/"><b>[ Play Game ]</b></a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📦 Ecopack Select v2</h3>
-      <p>A 3D packaging configurator with a Blender-inspired UI. Started as a basic college project, but I accidentally put way too much effort into it because I didn't know when to stop.</p>
-      <a href="https://ecopack-select-v2.vercel.app/"><b>[ View Configurator ]</b></a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>💻 Glass-OS</h3>
-      <p>A cyberpunk web desktop simulator. Features draggable windows, a local-storage note editor, and a functional terminal running classic tropes like <code>cowsay</code> and <code>matrix</code>.</p>
-      <a href="https://glass-os.vercel.app/"><b>[ Boot OS ]</b></a>
-    </td>
-    <td width="50%" valign="top">
-      </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
       <h3>🛸 Cyber-City</h3>
-      <p>An infinite cyberpunk drone-flying game. Pilot through a procedurally generated neon metropolis. Features a brutal "Deathwish Mode" where speed is permanently locked at maximum and buildings collapse directly into your flight path.</p>
-      <img src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white" />
-      <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-      <br><br>
+      <p>An infinite drone-flying game set in a procedurally generated neon city, including a maximum-speed Deathwish Mode.</p>
       <a href="https://cyber-city-blush.vercel.app/"><b>[ Play Game ]</b></a>
     </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>✂️ Offcut</h3>
+      <p>A fictional design-studio portfolio built with vanilla HTML, CSS, and JavaScript, including an interactive paint canvas.</p>
+      <a href="https://offcut-chi.vercel.app/"><b>[ Visit Studio ]</b></a> •
+      <a href="https://github.com/Nikhil-Singh2745/offcut"><b>[ Source Code ]</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🚀 Deadframe</h3>
+      <p>A fast-paced 2D space shooter with a roguelite perk system and a custom raw-Canvas rendering loop.</p>
+      <a href="https://deadframe.vercel.app/"><b>[ Play Game ]</b></a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📦 Ecopack Select v2</h3>
+      <p>A 3D packaging configurator with a Blender-inspired interface.</p>
+      <a href="https://ecopack-select-v2.vercel.app/"><b>[ View Configurator ]</b></a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>💻 Glass-OS</h3>
+      <p>A cyberpunk web desktop with draggable windows, persistent notes, and a functional novelty terminal.</p>
+      <a href="https://glass-os.vercel.app/"><b>[ Boot OS ]</b></a>
+    </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3>📚 Reading Room</h3>
-      <p>A violently over-engineered blog, now permanently abandoned because maintaining it was a nightmare. Built as a satire of generic templates, there is no CMS and no MDX, every post is a handwritten React component with custom per-post palettes and a 0.3° HTML layout tilt. It became so weirdly exhausting to write a simple post that I just stopped. A fitting monument to why I moved on from full-stack and MLOps.</p>
-      <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
-      <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-      <br><br>
+      <p>An intentionally over-engineered blog where every post is a custom React component with its own palette and layout.</p>
       <a href="https://blog-nine-phi-25.vercel.app/"><b>[ Live Site ]</b></a> •
       <a href="https://blog-nine-phi-25.vercel.app/posts/trpc-for-no-reason">Read: <i>I keep writing tRPC for no reason</i></a>
     </td>
-  </tr>
-</table>
-
-<br>
-
-## ─── ✦ Honorable Mentions ───
-
-<table width="100%">
-  <tr>
     <td width="50%" valign="top">
       <h3>🦖 Dino Supreme</h3>
-      <p>A satire of the Chrome dinosaur game. Over-engineered to an unnecessary degree just to see if I could keep canvas rendering stable while piling on useless features.</p>
+      <p>An aggressively over-engineered satire of the Chrome dinosaur game.</p>
       <a href="https://dino-supreme.vercel.app/"><b>[ Play ]</b></a>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td width="100%" valign="top" colspan="2">
       <h3>🧮 Calculator</h3>
-      <p>A totally normal web calculator. Definitely does math, and definitely doesn't do anything weird when you click the numbers. Watch it break standard layout logic.</p>
+      <p>A deliberately uncooperative calculator that breaks standard layout behavior as you use it.</p>
       <a href="https://calculator-khaki-eta-90.vercel.app/"><b>[ Calculate ]</b></a>
     </td>
   </tr>
