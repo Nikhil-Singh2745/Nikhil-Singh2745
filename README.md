@@ -11,7 +11,7 @@
   </picture>
   
   <p><b>I build low-latency systems, backend infrastructure, and quantitative experiments from first principles.</b></p>
-  <p>Most of my work lives around concurrency, memory layout, storage engines, authorization, and market microstructure—usually in C++, Go, Rust, or PHP. I can also take an idea through the full stack, and occasionally push WebGL or Canvas further than is sensible when the problem deserves an interface. Not looking for work.</p>
+  <p>Most of my work lives around concurrency, memory layout, storage engines, authorization, and market microstructure-usually in C++, Go, Rust, or PHP. I can also take an idea through the full stack, and occasionally push WebGL or Canvas further than is sensible when the problem deserves an interface. Not looking for work.</p>
 
   <br>
 
@@ -28,9 +28,9 @@
   <br><br>
 </div>
 
-* 🧠 **[a personal search engine on the Neural Engine](https://nikhil-singh2745.github.io/dumps/003-local-semantic-search-ane/)** — Forcing unused Apple Silicon to do semantic text vectorization, mostly because the hardware was just sitting there.
-* ⏱️ **[the userspace spinlock is a bet against the scheduler](https://nikhil-singh2745.github.io/dumps/002-userspace-spinlock-scheduler-bet/)** — A 128× performance cliff decided entirely by whether you actually own the core. 
-* 💥 **[the bimodal cost of `std::vector` reallocation](https://nikhil-singh2745.github.io/dumps/001-bimodal-vector-reallocation/)** — How forgetting a single `noexcept` keyword triggers a 40× slowdown on memory reallocation.
+* 🧠 **[a personal search engine on the Neural Engine](https://nikhil-singh2745.github.io/dumps/003-local-semantic-search-ane/)** - Forcing unused Apple Silicon to do semantic text vectorization, mostly because the hardware was just sitting there.
+* ⏱️ **[the userspace spinlock is a bet against the scheduler](https://nikhil-singh2745.github.io/dumps/002-userspace-spinlock-scheduler-bet/)** - A 128× performance cliff decided entirely by whether you actually own the core. 
+* 💥 **[the bimodal cost of `std::vector` reallocation](https://nikhil-singh2745.github.io/dumps/001-bimodal-vector-reallocation/)** - How forgetting a single `noexcept` keyword triggers a 40× slowdown on memory reallocation.
 
 <br>
 
@@ -120,7 +120,7 @@
   <tr>
     <td width="50%" valign="top">
       <h3>🎵 WaveCraft</h3>
-      <p>A browser-based music DSL whose PHP backend lexes notation into an AST, synthesizes raw PCM with oscillators and ADSR envelopes, and encodes the result as a WAV file—with no audio libraries.</p>
+      <p>A browser-based music DSL whose PHP backend lexes notation into an AST, synthesizes raw PCM with oscillators and ADSR envelopes, and encodes the result as a WAV file-with no audio libraries.</p>
       <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
       <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
       <img src="https://img.shields.io/badge/Vanilla_JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
@@ -215,9 +215,9 @@
 
 *I made these back when I was still figuring things out. They don't have live deployment links, but the source code is public. Read the repos to run them locally.*
 
-* 🔍 **[personal-search-engine](https://github.com/Nikhil-Singh2745/personal-search-engine)** `[ C ]` — A tiny CLI tool that indexes text/markdown directories and ranks results using term-frequency. 
-* 🛑 **[rate-limiter](https://github.com/Nikhil-Singh2745/rate-limiter)** `[ Rust / Redis / Lua ]` — An HTTP service running a token-bucket rate limiter. Executes Lua scripts to handle atomic updates.
-* 📉 **[lag-sim](https://github.com/Nikhil-Singh2745/lag-sim)** `[ Rust / Vue.js ]` — A local internet lag simulator. Spins up a TCP proxy to intentionally drop packets, throttle traffic, and add delays.
+* 🔍 **[personal-search-engine](https://github.com/Nikhil-Singh2745/personal-search-engine)** `[ C ]` - A tiny CLI tool that indexes text/markdown directories and ranks results using term-frequency. 
+* 🛑 **[rate-limiter](https://github.com/Nikhil-Singh2745/rate-limiter)** `[ Rust / Redis / Lua ]` - An HTTP service running a token-bucket rate limiter. Executes Lua scripts to handle atomic updates.
+* 📉 **[lag-sim](https://github.com/Nikhil-Singh2745/lag-sim)** `[ Rust / Vue.js ]` - A local internet lag simulator. Spins up a TCP proxy to intentionally drop packets, throttle traffic, and add delays.
 
 </details>
 
